@@ -25,7 +25,7 @@ func main() {
 
 		//-------Logika Bisnis dari aplikasi/rout
 
-		return c.SendString("Hello, World hehehe!")
+		return c.SendString("Hello, World")
 	})
 
 	app.Get("/hello", routes.Hello)
